@@ -12,6 +12,7 @@ Traffic congestion problem cause slower speed, longer trip time, and vehicular q
 * Mathematical derivation of transition matrix (green light and red light)
 * Mathematical derivation of probability distribution at steady-state
 * Result of simulation
+* More detail in the pdf file: 紅綠燈隊列馬可夫鏈分析.pdf
 
 ## Run the code
 * `python code.py --p --k`
