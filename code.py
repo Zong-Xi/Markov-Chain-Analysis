@@ -46,10 +46,9 @@ def main(p, q, N, k):
 if __name__ == '__main__':
     p = sys.argv[1]
     k = sys.argv[2]
-    
-    p = 0.4; 
+    p = float(p[2:])
+    k = int(k[2:])
     q = 1-p; 
     N = 1000; 
-    k = 5; 
     main(p, q, N, k)
 
